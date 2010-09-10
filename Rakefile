@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "mail-diff"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Unified Diff to HTML converter for emails}
+    gem.description = %Q{Version of PrettyDiff that generate markup that works in most email clients}
     gem.email = "ilya.sabanin@gmail.com"
     gem.homepage = "http://github.com/iSabanin/mail-diff"
     gem.authors = ["Ilya Sabanin"]

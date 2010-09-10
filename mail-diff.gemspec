@@ -10,24 +10,34 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ilya Sabanin"]
   s.date = %q{2010-09-10}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Version of PrettyDiff that generate markup that works in most email clients}
   s.email = %q{ilya.sabanin@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
   ]
   s.files = [
-    "VERSION"
+    ".gitignore",
+     "LICENSE",
+     "README.rdoc",
+     "Rakefile",
+     "VERSION",
+     "lib/mail_diff.rb",
+     "lib/mail_diff/.DS_Store",
+     "lib/mail_diff/chunk.rb",
+     "lib/mail_diff/diff.rb",
+     "lib/mail_diff/html_generators/chunk_generator.rb",
+     "lib/mail_diff/html_generators/diff_generator.rb",
+     "lib/mail_diff/html_generators/line_generator.rb",
+     "lib/mail_diff/line.rb",
+     "lib/mail_diff/line_numbers.rb",
+     "mail-diff.gemspec"
   ]
   s.homepage = %q{http://github.com/iSabanin/mail-diff}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO: one-line summary of your gem}
-  s.test_files = [
-    "test/helper.rb",
-     "test/test_mail-diff.rb"
-  ]
+  s.summary = %q{Unified Diff to HTML converter for emails}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
