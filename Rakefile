@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "mail-diff"
+    gem.name = "mail_diff"
     gem.summary = %Q{Unified Diff to HTML converter for emails}
     gem.description = %Q{Version of PrettyDiff that generate markup that works in most email clients}
     gem.email = "ilya.sabanin@gmail.com"
-    gem.homepage = "http://github.com/iSabanin/mail-diff"
+    gem.homepage = "http://github.com/iSabanin/mail_diff"
     gem.authors = ["Ilya Sabanin"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "mail-diff #{version}"
+  rdoc.title = "mail_diff #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

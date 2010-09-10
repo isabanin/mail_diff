@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{mail-diff}
+  s.name = %q{mail_diff}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
      "lib/mail_diff/line_numbers.rb",
      "mail-diff.gemspec"
   ]
-  s.homepage = %q{http://github.com/iSabanin/mail-diff}
+  s.homepage = %q{http://github.com/iSabanin/mail_diff}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
