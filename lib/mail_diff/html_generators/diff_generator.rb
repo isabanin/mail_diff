@@ -20,17 +20,17 @@ private
   
   def chunk_separator_html
 %Q[<tr>
-	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 1em;">&nbsp;</td>
-	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 1em;">&nbsp;</td>
-	<td style="padding: .3em 1em;">&nbsp;</td>
+	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: 0 .75em;">&nbsp;</td>
+	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: 0 .75em;">&nbsp;</td>
+	<td style="padding: 0 1em;">&nbsp;</td>
 </tr>
 <tr>
 	<td colspan="3" height="2" bgcolor="#E5E5E5"></td>
 </tr>
 <tr>
-	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 1em;">&nbsp;</td>
-	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 1em;">&nbsp;</td>
-	<td style="padding: .3em 1em;">&nbsp;</td>
+	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: 0 .75em;">&nbsp;</td>
+	<td bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: 0 .75em;">&nbsp;</td>
+	<td style="padding: 0 1em;">&nbsp;</td>
 </tr>]
   end
   

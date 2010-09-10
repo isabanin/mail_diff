@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
      "lib/mail_diff/html_generators/line_generator.rb",
      "lib/mail_diff/line.rb",
      "lib/mail_diff/line_numbers.rb",
-     "mail-diff.gemspec"
+     "mail_diff.gemspec"
   ]
   s.homepage = %q{http://github.com/iSabanin/mail_diff}
   s.rdoc_options = ["--charset=UTF-8"]

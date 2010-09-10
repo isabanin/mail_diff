@@ -34,10 +34,10 @@ private
   end
   
   def line_numbers
-    %Q[<td width="2%" align="right" valign="top" bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 0; color: #BBB;">
+    %Q[<td width="2%" align="right" valign="top" bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em .75em; color: #BBB;">
 <pre style="margin: 0; border: 0; padding: 0; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;">#{ line.left_number }</pre>
 	  </td>
-	  <td width="2%" align="right" valign="top" bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em 0; color: #BBB;">
+	  <td width="2%" align="right" valign="top" bgcolor="#F3F3F3" style="border-right: 1px solid #E5E5E5; padding: .3em .75em; color: #BBB;">
 <pre style="margin: 0; border: 0; padding: 0; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;">#{ line.right_number }</pre>
     </td>]
   end
