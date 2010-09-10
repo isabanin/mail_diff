@@ -5,8 +5,8 @@ require 'cgi'
 # when using the library.
 # 
 # === Usage example
-#  pretty = MailDiff::Diff.new(udiff)
-#  pretty.to_html
+#  mail_diff = MailDiff::Diff.new(udiff)
+#  mail_diff.to_html
 #
 # Keep in mind that Diff will automatically escape all HTML tags from the intput string
 # so that it doesn't interfere with the output.
