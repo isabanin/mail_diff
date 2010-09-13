@@ -1,0 +1,212 @@
+--- Revision 12
++++ Revision 17
+@@ -4,7 +4,7 @@
+ <head>
+   <meta charset="utf-8">
+   <title>Team Schedules</title>
+-	<style type="text/css"> article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,hr,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;border:0;padding:0;outline:0;font-size:1em;vertical-align:baseline;background-color:transparent}html,body{height:100%}body{background-color:#FFF;color:#333;font:normal .8em/1.4 'Helvetica Neue',Arial,Helvetica,sans-serif}select{width:160px}table{width:100%;height:100%;border-collapse:collapse;border-spacing:0}table th,table td{border-bottom:1px solid rgba(0,0,0,.02);vertical-align:middle}table thead th{width:10%;padding:1em 0}table tbody th{padding-right:1em;border-color:#DDD;background-color:#EEE;color:#AAA;font-size:.85em;font-weight:normal;text-align:right}table th.now{background-color:#FFFFD5;color:#908E00}table td.working{background-color:#D5F4FF} </style>
++	<style type="text/css"> article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,hr,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;border:0;padding:0;outline:0;font-size:1em;vertical-align:baseline;background-color:transparent}html,body{height:100%}body{background-color:#FFF;color:#333;font:normal .8em/1.4 'Helvetica Neue',Arial,Helvetica,sans-serif}select{width:160px}table{width:100%;height:100%;border-collapse:collapse;border-spacing:0}table th,table td{border-bottom:1px solid rgba(0,0,0,.02);vertical-align:middle}table thead th{width:10%;padding:1em 0}table thead th span{color:#AAA;font-size:.85em;font-weight:normal;vertical-align:top;}table tbody th{padding-right:1em;border-color:#DDD;background-color:#EEE;color:#AAA;font-size:.85em;font-weight:normal;text-align:right}table th.now{background-color:#FFFFD5;color:#908E00}table td.working{background-color:#D5F4FF} </style>
+ </head>
+ 
+ <body>
+@@ -31,7 +31,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -42,7 +42,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -53,7 +53,7 @@
+ 				<td>*</td> 	<!-- Eugene -->
+ 				<td>*</td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td>*</td> 	<!-- Hristo -->
+ 				<td>*</td> 	<!-- Igor -->
+ 			</tr>
+@@ -64,7 +64,7 @@
+ 				<td>*</td> 	<!-- Eugene -->
+ 				<td>*</td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td>*</td> 	<!-- Hristo -->
+ 				<td>*</td> 	<!-- Igor -->
+ 			</tr>
+@@ -125,8 +125,8 @@
+ 			</tr>
+ 			<tr>
+ 				<th>10 AM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td>*</td> 	<!-- Eugene -->
+ 				<td>*</td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+@@ -136,8 +136,8 @@
+ 			</tr>
+ 			<tr>
+ 				<th>11 AM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td>*</td> 	<!-- Eugene -->
+ 				<td>*</td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+@@ -147,10 +147,10 @@
+ 			</tr>
+ 			<tr>
+ 				<th>Noon</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td>*</td> 	<!-- Eugene -->
+-				<td>*</td> 	<!-- Gilbert -->
++				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+ 				<td></td> 	<!-- Dima -->
+ 				<td>*</td> 	<!-- Hristo -->
+@@ -158,20 +158,20 @@
+ 			</tr>
+ 			<tr>
+ 				<th>1 PM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
+-				<td>*</td> 	<!-- Eugene -->
+-				<td>*</td> 	<!-- Gilbert -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
++				<td></td> 	<!-- Eugene -->
++				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+ 				<td></td> 	<!-- Dima -->
+-				<td>*</td> 	<!-- Hristo -->
+-				<td>*</td> 	<!-- Igor -->
++				<td></td> 	<!-- Hristo -->
++				<td></td> 	<!-- Igor -->
+ 			</tr>
+ 			<tr>
+ 				<th>2 PM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
+-				<td>*</td> 	<!-- Eugene -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
++				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+ 				<td></td> 	<!-- Dima -->
+@@ -180,8 +180,8 @@
+ 			</tr>
+ 			<tr>
+ 				<th>3 PM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+@@ -191,8 +191,8 @@
+ 			</tr>
+ 			<tr>
+ 				<th>4 PM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+@@ -202,8 +202,8 @@
+ 			</tr>
+ 			<tr>
+ 				<th>5 PM</th>
+-				<td></td> 	<!-- Chris -->
+-				<td></td> 	<!-- Natalie -->
++				<td>*</td> 	<!-- Chris -->
++				<td>*</td> 	<!-- Natalie -->
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+@@ -240,7 +240,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -251,7 +251,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -262,7 +262,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -273,7 +273,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td>*</td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -284,7 +284,7 @@
+ 				<td></td> 	<!-- Eugene -->
+ 				<td></td> 	<!-- Gilbert -->
+ 				<td></td> 	<!-- Ilya -->
+-				<td></td> 	<!-- Dima -->
++				<td>*</td> 	<!-- Dima -->
+ 				<td></td> 	<!-- Hristo -->
+ 				<td></td> 	<!-- Igor -->
+ 			</tr>
+@@ -299,8 +299,19 @@
+ 			var now = new Date();
+ 
+ 			$("td:contains('*')").addClass('working').text('');
+-			$('table tbody tr:eq(' + (now.getHours() - 7) + ') th').addClass('now')
+ 			
++			$('table tbody tr:eq(' + (now.getHours() - 7) + ') th').addClass('now');
++			
++			$('table thead th:gt(0)').each(function(i){
++				var hours = 0;
++				
++				$('table tbody tr').find('td:eq(' + i + ')').each(function(){
++					if ($(this).hasClass('working')) hours++;
++				});
++				
++				$(this).append(' <span>' + hours + '</span>');
++			});
++						
+ 		});
+ 	
+ 	</script>
