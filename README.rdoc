@@ -24,4 +24,4 @@ http://ilya.sabanin.ru/projects/pretty_diff_example.html
 
 Same as in PrettyDiff (http://github.com/iSabanin/pretty_diff).
 
-Copyright (c) 2010 Ilya Sabanin and Eugene Fedorenko, Wildbit; see LICENSE for details.
+Copyright (c) 2011 Ilya Sabanin and Eugene Fedorenko, Wildbit; see LICENSE for details.
