@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mail_diff}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ilya Sabanin"]
-  s.date = %q{2011-04-18}
+  s.date = %q{2011-10-03}
   s.description = %q{Version of PrettyDiff that generate markup that works in most email clients}
   s.email = %q{ilya.sabanin@gmail.com}
   s.extra_rdoc_files = [
@@ -39,9 +39,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Unified Diff to HTML converter for emails}
-  s.test_files = [
-    "test/dummy_mail_diff_test.rb"
-  ]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
