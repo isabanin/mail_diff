@@ -45,7 +45,7 @@ private
   def added_html
     wrapper do
       %Q[<td valign="top" style="padding: .3em 1em;">
-<pre style="width:auto; margin: 0; border: 0; padding: 0; white-space: pre-wrap; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;"><span class="gi">#{ line.format }</span></pre>
+<pre style="width:auto; margin: 0; border: 0; padding: 0; white-space: pre-wrap; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;"><span style="background-color: #E0F2CE; color: #030;">#{ line.format }</span></pre>
       </td>]
     end
   end
@@ -53,7 +53,7 @@ private
   def deleted_html
     wrapper do
       %Q[<td valign="top" style="padding: .3em 1em;">
-<pre style="width:auto; margin: 0; border: 0; padding: 0; white-space: pre-wrap; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;"><span class="gd">#{ line.format }</span></pre>
+<pre style="width:auto; margin: 0; border: 0; padding: 0; white-space: pre-wrap; font: 11px Monaco, 'Lucida Console', Consolas, 'Courier New', monospace;"><span style="background-color: #FDD; color: #300;">#{ line.format }</span></pre>
       </td>]
     end
   end
